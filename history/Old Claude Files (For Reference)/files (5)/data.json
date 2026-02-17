@@ -1,0 +1,16 @@
+{
+  "openaiEndpoint": "https://api.mistral.ai/v1",
+  "openaiApiKey": "tXXGkvsrNp8RGSnom37zUZl3kfftiRDz",
+  "modelName": "mistral-small-latest",
+  "similarityThreshold": 0.7,
+  "runOnStartup": true,
+  "runOnFileSwitch": true,
+  "useCustomDirectory": true,
+  "customDirectoryName": "Vault Wiki",
+  "showProgressNotification": true,
+  "batchSize": 5,
+  "customPrompt": "You are a helpful assistant that provides concise, Wikipedia-style definitions for terms. Provide a one-paragraph summary/definition for the term: \"{term}\"",
+  "useDictionaryAPI": true,
+  "dictionaryAPIEndpoint": "https://api.dictionaryapi.dev/api/v2/entries/en/",
+  "handlePlurals": true
+}
